@@ -60,7 +60,7 @@ service:
 
 env:
   - name: REACT_APP_SERVER_URL
-    value: "http://server:5000"
+    value: "http://mern-app-server:5000"
 
 # This block is for setting up the ingress for more information can be found here: https://kubernetes.io/docs/concepts/services-networking/ingress/
 ingress:
