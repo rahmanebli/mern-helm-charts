@@ -57,8 +57,6 @@ service:
   type: ClusterIP
   # This sets the ports more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/#field-spec-ports
   port: 3000
-  metadata:
-    namespace: mern-app
 
 env:
   - name: REACT_APP_SERVER_URL
